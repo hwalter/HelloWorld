@@ -1,0 +1,50 @@
+body
+  {
+  color           : cyan;
+  background      : #ccc;
+  font-size       : 16pt;
+  }
+  
+table
+  {
+  }
+
+tr
+  {
+  }
+  
+td
+  {
+  border          :  0px solid black;
+  border-radius   :  5px;
+  padding         : 10px;
+  color           : black;
+  background      : orange;
+  margin          :  2px;
+  }
+
+table.wholePage
+  {
+  width           : 100%;
+  background      : transparent;
+  }
+
+table.wholePage tr
+  {
+  }
+  
+table.wholePage td
+  {
+  text-align      : center;
+  }
+  
+td.titleRow
+  {
+  color           : red;
+  background      : black;
+  font-size       : 20pt;
+  text-decoration : underline;  
+  text-align      : center;
+  margin          : auto;
+  padding         : 20px;
+  }
